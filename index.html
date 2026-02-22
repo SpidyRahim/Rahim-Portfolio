@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md. Rahim | Software Engineer & CS Graduate</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         /* ===== CSS RESET & VARIABLES ===== */
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -33,10 +38,10 @@
             --gradient-1: linear-gradient(135deg, #3b82f6, #8b5cf6);
             --gradient-2: linear-gradient(135deg, #0f172a, #1e293b);
             --gradient-3: linear-gradient(135deg, #3b82f6, #06b6d4);
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.3), 0 2px 4px -2px rgba(0,0,0,0.3);
-            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -4px rgba(0,0,0,0.3);
-            --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.4), 0 8px 10px -6px rgba(0,0,0,0.4);
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
             --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.15);
             --radius-sm: 8px;
             --radius-md: 12px;
@@ -125,7 +130,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* ===== CURSOR ===== */
@@ -375,8 +382,17 @@
         }
 
         @keyframes pulse-dot {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(1.3); }
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.3);
+            }
         }
 
         .hero-title {
@@ -564,8 +580,13 @@
         }
 
         @keyframes rotate-slow {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* Floating badges around image */
@@ -619,8 +640,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         /* ===== SECTION STYLES ===== */
@@ -1313,7 +1341,7 @@
             letter-spacing: -0.5px;
         }
 
-        .contact-info > p {
+        .contact-info>p {
             color: var(--text-muted);
             margin-bottom: 36px;
             line-height: 1.7;
@@ -1627,6 +1655,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -1855,6 +1884,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Preloader -->
@@ -1909,7 +1939,9 @@
                 </h1>
                 <p class="hero-role">Software Engineer · Backend Developer · CS Graduate</p>
                 <p class="hero-description">
-                    Highly motivated Computer Science graduate with practical experience in backend development, system design, and data handling. Committed to continuous learning and contributing meaningfully to institutional and industry goals.
+                    Highly motivated Computer Science graduate with practical experience in backend development, system
+                    design, and data handling. Committed to continuous learning and contributing meaningfully to
+                    institutional and industry goals.
                 </p>
                 <div class="hero-actions">
                     <a href="#projects" class="btn btn-primary">
@@ -1946,10 +1978,7 @@
                             <img src="your-photo.jpg" alt="Md. Rahim">
                             ========================================
                         -->
-                        <div class="image-placeholder">
-                            <i class="fas fa-user"></i>
-                            <span>Your Photo Here</span>
-                        </div>
+                        <img src="my-photo.jpeg" alt="Md. Rahim">
                     </div>
                     <div class="float-badge float-badge-1">
                         <i class="fab fa-python"></i>
@@ -1983,16 +2012,21 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-user"></i> About Me</div>
                 <h2 class="section-title">Who I Am</h2>
-                <p class="section-subtitle">A detail-oriented CS graduate passionate about building impactful software solutions and advancing in research.</p>
+                <p class="section-subtitle">A detail-oriented CS graduate passionate about building impactful software
+                    solutions and advancing in research.</p>
             </div>
             <div class="about-grid">
                 <div class="about-content reveal">
                     <h3>Backend Developer & Aspiring Researcher</h3>
                     <p>
-                        I graduated with a B.Sc. in Computer Science and Engineering from Gopalganj Science and Technology University with a CGPA of 3.39/4.00. My academic journey has been marked by consistent excellence, including perfect GPA scores in both SSC and HSC.
+                        I graduated with a B.Sc. in Computer Science and Engineering from Gopalganj Science and
+                        Technology University with a CGPA of 3.39/4.00. My academic journey has been marked by
+                        consistent excellence, including perfect GPA scores in both SSC and HSC.
                     </p>
                     <p>
-                        I'm passionate about software engineering, infrastructure, and technical problem-solving. I seek opportunities in graduate research, academic fellowships, or IT roles where I can apply my knowledge and continue to grow professionally.
+                        I'm passionate about software engineering, infrastructure, and technical problem-solving. I seek
+                        opportunities in graduate research, academic fellowships, or IT roles where I can apply my
+                        knowledge and continue to grow professionally.
                     </p>
                     <div class="about-info-grid">
                         <div class="about-info-item">
@@ -2059,7 +2093,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-graduation-cap"></i> Education</div>
                 <h2 class="section-title">Academic Background</h2>
-                <p class="section-subtitle">A consistent academic record demonstrating dedication and excellence throughout my educational journey.</p>
+                <p class="section-subtitle">A consistent academic record demonstrating dedication and excellence
+                    throughout my educational journey.</p>
             </div>
             <div class="timeline">
                 <div class="timeline-item reveal">
@@ -2068,7 +2103,8 @@
                         <div class="timeline-year">2019 – 2024</div>
                         <h3 class="timeline-title">B.Sc. in Computer Science and Engineering</h3>
                         <p class="timeline-institution">Gopalganj Science and Technology University</p>
-                        <p class="timeline-details">Comprehensive study in software engineering, algorithms, data structures, databases, AI/ML, and system design.</p>
+                        <p class="timeline-details">Comprehensive study in software engineering, algorithms, data
+                            structures, databases, AI/ML, and system design.</p>
                         <div class="timeline-gpa">
                             <i class="fas fa-award"></i> CGPA: 3.39 / 4.00
                         </div>
@@ -2080,7 +2116,8 @@
                         <div class="timeline-year">2017</div>
                         <h3 class="timeline-title">Higher Secondary Certificate (HSC)</h3>
                         <p class="timeline-institution">Govt. Science College, Dhaka Board</p>
-                        <p class="timeline-details">Science group with focus on Physics, Chemistry, and Mathematics. Achieved perfect GPA.</p>
+                        <p class="timeline-details">Science group with focus on Physics, Chemistry, and Mathematics.
+                            Achieved perfect GPA.</p>
                         <div class="timeline-gpa">
                             <i class="fas fa-award"></i> GPA: 5.00 / 5.00
                         </div>
@@ -2092,7 +2129,8 @@
                         <div class="timeline-year">2015</div>
                         <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
                         <p class="timeline-institution">Maniknagar Model High School, Dhaka Board</p>
-                        <p class="timeline-details">Science group. Built a strong academic foundation with a perfect score.</p>
+                        <p class="timeline-details">Science group. Built a strong academic foundation with a perfect
+                            score.</p>
                         <div class="timeline-gpa">
                             <i class="fas fa-award"></i> GPA: 5.00 / 5.00
                         </div>
@@ -2108,7 +2146,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-cogs"></i> Skills</div>
                 <h2 class="section-title">Technical Expertise</h2>
-                <p class="section-subtitle">A versatile skill set spanning backend development, data science, cloud computing, and modern development tools.</p>
+                <p class="section-subtitle">A versatile skill set spanning backend development, data science, cloud
+                    computing, and modern development tools.</p>
             </div>
             <div class="skills-grid">
                 <div class="skill-category reveal">
@@ -2203,7 +2242,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-rocket"></i> Projects</div>
                 <h2 class="section-title">Featured Work</h2>
-                <p class="section-subtitle">Academic projects that demonstrate my skills in full-stack development, system design, and problem-solving.</p>
+                <p class="section-subtitle">Academic projects that demonstrate my skills in full-stack development,
+                    system design, and problem-solving.</p>
             </div>
             <div class="projects-grid">
                 <!-- Project 1 -->
@@ -2213,10 +2253,12 @@
                             <i class="fas fa-question-circle"></i>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/SpidyRahim/quickyquizz" target="_blank" title="GitHub Repository" aria-label="GitHub">
+                            <a href="https://github.com/SpidyRahim/quickyquizz" target="_blank"
+                                title="GitHub Repository" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://github.com/SpidyRahim/quickyquizz" target="_blank" title="Live Demo" aria-label="External Link">
+                            <a href="https://github.com/SpidyRahim/quickyquizz" target="_blank" title="Live Demo"
+                                aria-label="External Link">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
@@ -2226,7 +2268,8 @@
                             <a href="https://github.com/SpidyRahim/quickyquizz" target="_blank">Quicky Quiz</a>
                         </h3>
                         <p class="project-description">
-                            An online quiz platform designed for teachers and students with role-based access control and real-time features.
+                            An online quiz platform designed for teachers and students with role-based access control
+                            and real-time features.
                         </p>
                         <ul class="project-features">
                             <li><i class="fas fa-circle"></i> Role-based access for teachers & students</li>
@@ -2250,20 +2293,24 @@
                             <i class="fas fa-university"></i>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django" target="_blank" title="GitHub Repository" aria-label="GitHub">
+                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django" target="_blank"
+                                title="GitHub Repository" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django" target="_blank" title="Live Demo" aria-label="External Link">
+                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django" target="_blank"
+                                title="Live Demo" aria-label="External Link">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                     <div class="project-body">
                         <h3 class="project-title">
-                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django" target="_blank">Banking Management System</a>
+                            <a href="https://github.com/SpidyRahim/Banking-Management-System-Django"
+                                target="_blank">Banking Management System</a>
                         </h3>
                         <p class="project-description">
-                            A full-featured banking simulation with comprehensive financial operations and admin controls.
+                            A full-featured banking simulation with comprehensive financial operations and admin
+                            controls.
                         </p>
                         <ul class="project-features">
                             <li><i class="fas fa-circle"></i> Deposit, withdrawal & loan features</li>
@@ -2287,17 +2334,20 @@
                             <i class="fas fa-shopping-cart"></i>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank" title="GitHub Repository" aria-label="GitHub">
+                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank"
+                                title="GitHub Repository" aria-label="GitHub">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank" title="Live Demo" aria-label="External Link">
+                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank" title="Live Demo"
+                                aria-label="External Link">
                                 <i class="fas fa-external-link-alt"></i>
                             </a>
                         </div>
                     </div>
                     <div class="project-body">
                         <h3 class="project-title">
-                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank">Trend Mall – E-commerce</a>
+                            <a href="https://github.com/SpidyRahim/Django_Ecommerce" target="_blank">Trend Mall –
+                                E-commerce</a>
                         </h3>
                         <p class="project-description">
                             A dynamic e-commerce web application with complete product management and shopping features.
@@ -2326,7 +2376,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-certificate"></i> Certifications</div>
                 <h2 class="section-title">Professional Certifications</h2>
-                <p class="section-subtitle">Continuous learning through recognized platforms and programs to stay updated with industry trends.</p>
+                <p class="section-subtitle">Continuous learning through recognized platforms and programs to stay
+                    updated with industry trends.</p>
             </div>
             <div class="cert-grid">
                 <div class="cert-card reveal">
@@ -2334,7 +2385,8 @@
                     <div class="cert-content">
                         <h4>Data Analysis with Python</h4>
                         <p class="cert-issuer">EDGE, ICT Division – 2024</p>
-                        <p class="cert-desc">Covered NumPy, Pandas, data wrangling, and exploratory data analysis techniques.</p>
+                        <p class="cert-desc">Covered NumPy, Pandas, data wrangling, and exploratory data analysis
+                            techniques.</p>
                     </div>
                 </div>
                 <div class="cert-card reveal">
@@ -2342,7 +2394,8 @@
                     <div class="cert-content">
                         <h4>Machine Learning Fundamentals</h4>
                         <p class="cert-issuer">Alison</p>
-                        <p class="cert-desc">Key ML concepts including supervised/unsupervised learning, model training, and evaluation.</p>
+                        <p class="cert-desc">Key ML concepts including supervised/unsupervised learning, model training,
+                            and evaluation.</p>
                     </div>
                 </div>
                 <div class="cert-card reveal">
@@ -2366,7 +2419,8 @@
                     <div class="cert-content">
                         <h4>Data Visualization & Analysis</h4>
                         <p class="cert-issuer">Alison</p>
-                        <p class="cert-desc">Hands-on training in data cleaning, visualization using Excel, Matplotlib, and Seaborn.</p>
+                        <p class="cert-desc">Hands-on training in data cleaning, visualization using Excel, Matplotlib,
+                            and Seaborn.</p>
                     </div>
                 </div>
             </div>
@@ -2379,7 +2433,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-flask"></i> Research</div>
                 <h2 class="section-title">Research Interests</h2>
-                <p class="section-subtitle">Areas of academic and professional interest where I aim to contribute through research and innovation.</p>
+                <p class="section-subtitle">Areas of academic and professional interest where I aim to contribute
+                    through research and innovation.</p>
             </div>
             <div class="research-grid">
                 <div class="research-card reveal">
@@ -2416,7 +2471,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-heart"></i> Activities</div>
                 <h2 class="section-title">Extracurricular Activities</h2>
-                <p class="section-subtitle">Beyond academics — leadership, community engagement, and event management experience.</p>
+                <p class="section-subtitle">Beyond academics — leadership, community engagement, and event management
+                    experience.</p>
             </div>
             <div class="extra-grid">
                 <div class="extra-card reveal">
@@ -2427,7 +2483,8 @@
                             <span class="extra-org">JAAGO Foundation</span>
                         </div>
                     </div>
-                    <p>Participated in social outreach and educational initiatives to support underprivileged students. Developed interpersonal and teamwork abilities while contributing to community welfare.</p>
+                    <p>Participated in social outreach and educational initiatives to support underprivileged students.
+                        Developed interpersonal and teamwork abilities while contributing to community welfare.</p>
                 </div>
                 <div class="extra-card reveal">
                     <div class="extra-card-header">
@@ -2437,7 +2494,9 @@
                             <span class="extra-org">Gopalganj Science & Technology University</span>
                         </div>
                     </div>
-                    <p>Organized a university seminar on "Artificial Intelligence and its Future Impact," collaborating with faculty and industry speakers. Enhanced leadership, communication, and event management skills.</p>
+                    <p>Organized a university seminar on "Artificial Intelligence and its Future Impact," collaborating
+                        with faculty and industry speakers. Enhanced leadership, communication, and event management
+                        skills.</p>
                 </div>
             </div>
         </div>
@@ -2449,7 +2508,8 @@
             <div class="section-header reveal">
                 <div class="section-tag"><i class="fas fa-user-tie"></i> References</div>
                 <h2 class="section-title">Academic References</h2>
-                <p class="section-subtitle">Faculty members who can attest to my academic performance and professional potential.</p>
+                <p class="section-subtitle">Faculty members who can attest to my academic performance and professional
+                    potential.</p>
             </div>
             <div class="ref-grid">
                 <div class="ref-card reveal">
@@ -2485,13 +2545,15 @@
             <div class="contact-wrapper">
                 <div class="contact-info reveal">
                     <h3>Get In Touch</h3>
-                    <p>I'm currently open to opportunities in graduate research, academic fellowships, backend development, and IT roles. Let's discuss how I can contribute to your team.</p>
+                    <p>I'm currently open to opportunities in graduate research, academic fellowships, backend
+                        development, and IT roles. Let's discuss how I can contribute to your team.</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
                             <div class="contact-item-text">
                                 <span class="label">Email</span>
-                                <span class="value"><a href="mailto:mdrahim5974@gmail.com">mdrahim5974@gmail.com</a></span>
+                                <span class="value"><a
+                                        href="mailto:mdrahim5974@gmail.com">mdrahim5974@gmail.com</a></span>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -2510,10 +2572,12 @@
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/md-rahim-cse/" target="_blank" class="social-link" title="LinkedIn" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/md-rahim-cse/" target="_blank" class="social-link"
+                            title="LinkedIn" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/SpidyRahim" target="_blank" class="social-link" title="GitHub" aria-label="GitHub">
+                        <a href="https://github.com/SpidyRahim" target="_blank" class="social-link" title="GitHub"
+                            aria-label="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
                         <a href="mailto:mdrahim5974@gmail.com" class="social-link" title="Email" aria-label="Email">
@@ -2537,11 +2601,13 @@
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="Opportunity / Collaboration" required>
+                        <input type="text" id="subject" name="subject" placeholder="Opportunity / Collaboration"
+                            required>
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        <textarea id="message" name="message" placeholder="Write your message here..."
+                            required></textarea>
                     </div>
                     <button type="submit" class="form-submit">
                         <i class="fas fa-paper-plane"></i> Send Message
@@ -2673,7 +2739,7 @@
         });
 
         // ===== CONTACT FORM =====
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
@@ -2690,7 +2756,7 @@
 
         // ===== SMOOTH SCROLL FOR NAV LINKS =====
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -2712,7 +2778,7 @@
 
         function typeEffect() {
             const currentRole = roles[roleIndex];
-            
+
             if (isDeleting) {
                 charIndex--;
             } else {
@@ -2739,4 +2805,5 @@
         setTimeout(typeEffect, 1500);
     </script>
 </body>
+
 </html>
